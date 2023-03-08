@@ -1,0 +1,7 @@
+*.log
+/.direnv
+/.env
+/.envrc
+/.idea
+__pycache__/
+local.config.yml

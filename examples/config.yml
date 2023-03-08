@@ -1,0 +1,12 @@
+routes:
+  - body_re: ".*development.*"
+    channel: "#channel-development"
+    url: "https://hooks.slack.com/services/DDDDDDDD"
+
+  - body_re: ".*testing.*"
+    channel: "#channel-testing"
+    url: "https://hooks.slack.com/services/TTTTTTTT"
+
+  - body_re: ".*staging.*"
+    channel: "#channel-staging"
+    url: "https://hooks.slack.com/services/SSSSSSSS"

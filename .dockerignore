@@ -1,0 +1,9 @@
+*.log
+.git
+.gitignore
+/.direnv
+/.env
+/.envrc
+/.idea
+/examples
+__pycache__/
