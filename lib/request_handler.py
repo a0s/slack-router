@@ -27,7 +27,8 @@ def request_handler(config_parser: ConfigParser) -> type[BaseHTTPRequestHandler]
                 if m:
                     break
             if route is None:
-                self.send_response(418)
+                self.send_response(404)
+                self.wfile.write(b'Route not found')
                 return
 
             headers = {}
